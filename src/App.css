@@ -1,19 +1,30 @@
-.body {}
+.body {
+    width: 100%;
+}
 .scroll-container{
+    width: 100%;
+}
+.contactme-outer{
 
 }
-.social-image{
-    height: 500px;
-    width: 500px;
+.contactme-inner{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
+.contactme-image{
+    padding: 2rem;
+}
+
 .landing-page-container{
-
+    height: 100vh;
 }
 .landing-text-container{
 
 }
 .cv-page-container{
-
+    height: 100vh;
 }
 .cv-info-container{
     
