@@ -6,8 +6,7 @@ import githubIcon from '../img/github-icon.png';
 import linkedinIcon from '../img/linkedin-icon.png';
 import '../App.css';
 
-class SocialLinks extends React.Component{
-    render(){
+function SocialLinks(){
     return (
         <div className="contactme-outer">
             <div className="contactme-inner">
@@ -18,9 +17,7 @@ class SocialLinks extends React.Component{
                 <a href="https://www.linkedin.com/in/james1997hughes/"><img src={linkedinIcon} alt="LinkedIn - James Hughes" className='contactme-image'/></a>
             </div>
         </div>
-        
+
     );
 }
-}
 export default SocialLinks;
- 

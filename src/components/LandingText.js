@@ -11,7 +11,7 @@ function LandingText(){
     const [str3, setstr3] = useState(strArr[2]);
     const [str4, setstr4] = useState(strArr[3]);
 
-    
+
     /*
     function loadText(strToChange, strToLoad){
 
@@ -38,7 +38,7 @@ function LandingText(){
                     }}, 100);
                 //loads the str including the next character
             }
-        
+
     }
     function loopLoader(){
         for (var i=0; i < strArr.length; i++){
@@ -75,12 +75,12 @@ function LandingText(){
 
     return (
         <div className="landing-text-container">
-            <h1 className="landing-text-loadable">{str1}</h1>
-            <h1 className="landing-text-loadable">{str2}</h1>
-            <h1 className="landing-text-loadable">{str3}</h1>
-            <h1 className="landing-text-loadable">{str4}</h1>
+            <p className="landing-text-loadable">{str1}</p>
+            <p className="landing-text-loadable">{str2}</p>
+            <p className="landing-text-loadable">{str3}</p>
+            <p className="landing-text-loadable">{str4}</p>
         </div>
-        
+
     );
 }
  export default LandingText;

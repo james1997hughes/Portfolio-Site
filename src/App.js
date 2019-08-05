@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
-import LandingPageTop from './components/LandingPageTop';
-import CVPage from './components/CVPage';
+import ScrollHandler from './components/ScrollHandler.js';
 
 
 function App() {
   return (
-    <div className="scroll-container">
-      <LandingPageTop/>
-      <CVPage/>
-    </div>
+    <ScrollHandler/>
   );
   }
 export default App;
